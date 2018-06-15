@@ -1,0 +1,49 @@
+body{
+    background: rgb(246, 246, 246);
+    margin: 0;
+    padding: 0;
+    min-width: 500px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#header{
+    background: #858383;
+    padding: 20px;
+    min-height: 50px;
+    color: white;
+    border: 1px solid black;
+}
+
+#content{
+    padding: 20px;
+    min-height: 350px;
+    border: 1px solid;
+    background-color: white;
+    color: black
+}
+
+#footer{
+    background: aquamarine;
+    min-height: 70px;
+    padding: 20px;
+    border: 1px solid;
+}
+
+
+/*error page*/
+.error-text{
+    text-align: center;
+    font-size: 20px;
+    font-family: monospace;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.error-image{
+    text-align: center;
+}
+/*login page*/
+.login-label{
+    display: block;
+    margin: 10px 0 10px 0;
+}
